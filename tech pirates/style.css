@@ -1,0 +1,46 @@
+body
+{
+ background-image: url('6.jpeg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family:Algerian;
+ color:darkorange;
+}
+
+ul
+{
+ margin: 0px;
+ padding: 0px;
+ list-style:none;
+}
+
+ul li
+{
+ float:left;
+ width:260px;
+ height:50;
+ background-color:#000000;
+ opacity: .70;
+ line-height: 50px;
+ text-align:center;
+ font-size:30px;
+ margin-right:5px;
+ 
+}
+
+ul li a:hover
+{
+ background-color:navy;
+ display:block;
+}
+
+ul li ul li
+{
+ display : none;
+}
+
+ul li:hover ul li
+{
+ display : block;
+}
+style
